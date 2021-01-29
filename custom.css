@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: "Brandon-grotesque";
+	src: url("/fontStyle/brandon-grotesque-regular.otf") format("opentype");
+}
+
+.__section {
+	display: flex;
+	justify-content: center;
+}
+.__div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.__space {
+	margin-top: 13px;
+}
+.__farmsby {
+	font-family: "Brandon-grotesque";
+	font-size: 64px;
+	color: #25d04e;
+}
+.__message {
+	margin-top: 30px;
+}
+.__success {
+	font-size: 24px;
+	color: #6d758d;
+	font-family: "Inter";
+}
+.__click {
+	margin-top: 64px;
+	width: 100%;
+}
+.__button {
+	font-family: "Inter";
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 14px 0 14px 0;
+	border: none;
+	width: 100%;
+	background-color: #25d04e;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.__button:focus {
+	outline: none;
+}
